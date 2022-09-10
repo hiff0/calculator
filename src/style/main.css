@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: beige;
+    font-family: sans-serif;
+}
+
+.display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    border-radius: 15px;
+    background-color: #fcfcfc;
+    height: 580px;
+    width: 400px;
+    padding: 10px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    background-color: #ede4e4;
+    font-size: 28px;
+}
+
+.calculator_field {
+    display: flex;
+    align-items: center;
+    flex-direction: row-reverse;
+    flex-basis: 400px;
+    height: 50px;
+    cursor: text;
+    border: 1px solid gray;
+}
+
+.input {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 400px;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid gray;
+}
+
+.margin_bottom {
+    margin-bottom: 7px;
+}
+
+.margin_left {
+    margin-right: 20px;
+}
+
+.clean {
+    color: red;
+}
+
+p {
+    font-size: 32px;
+}
+
+.equal {
+    flex-grow: 2;
+    border-radius: 50px;
+    color: #fcfcfc;
+    background-color: #4b4e99;
+}
+
+.margin_top {
+    margin-top: 10px;
+}
+
+.noselect {
+    -webkit-touch-callout: none;
+    /* iOS Safari */
+    -webkit-user-select: none;
+    /* Safari */
+    -khtml-user-select: none;
+    /* Konqueror HTML */
+    -moz-user-select: none;
+    /* Old versions of Firefox */
+    -ms-user-select: none;
+    /* Internet Explorer/Edge */
+    user-select: none;
+}
+
+.color_sea {
+    color: #4b4e99;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+.image {
+    display: flex;
+    justify-content: space-between;
+    width: 80px;
+}
