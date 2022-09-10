@@ -20,10 +20,10 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    align-content: flex-start;
+    align-content: flex-end;
     border-radius: 15px;
     background-color: #fcfcfc;
-    height: 580px;
+    height: 600px;
     width: 400px;
     padding: 10px;
 }
@@ -40,13 +40,12 @@ body {
 }
 
 .calculator_field {
-    display: flex;
-    align-items: center;
-    flex-direction: row-reverse;
-    flex-basis: 400px;
-    height: 50px;
+    text-align: right;
+    height: 70px;
+    width: 380px;
+    font-size: 48px;
     cursor: text;
-    border: 1px solid gray;
+    border: 2px solid gray;
 }
 
 .input {
@@ -68,10 +67,6 @@ body {
 
 .clean {
     color: red;
-}
-
-p {
-    font-size: 32px;
 }
 
 .equal {
