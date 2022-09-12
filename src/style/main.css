@@ -28,7 +28,7 @@ body {
     padding: 10px;
 }
 
-.buttons {
+.button {
     display: flex;
     justify-content: center;
     align-items: center;
