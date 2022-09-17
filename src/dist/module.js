@@ -24,6 +24,7 @@ const cleanButton = () => {
     const cleanbutton = document.body.querySelector('.clean');
     cleanbutton.addEventListener('click', () => {
         const input = getInput();
+        input.style.border = '2px solid gray';
         input.value = '';
     });
 }
@@ -41,8 +42,14 @@ const counting = () => {
     const equalButton = document.body.querySelector('.equal');
     equalButton.addEventListener('click', () => {
         const input = getInput();
+        input.style.border = '2px solid gray';
         const inputValue = input.value;
-        input.value = math.evaluate(inputValue);
+        try {
+            input.value = math.evaluate(inputValue);
+        } catch (e) {
+            input.style.border = '2px solid red';
+            alert('ошибка в синтаксисе');
+        }
     })
 }
 
