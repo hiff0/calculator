@@ -1,5 +1,5 @@
 # calculator
-## Strart
+### Start
 ``
 npm run serve
 ``
